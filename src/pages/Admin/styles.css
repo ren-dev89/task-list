@@ -1,0 +1,62 @@
+.admin-container {
+  margin: 3rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.admin-container h1 {
+  margin-bottom: 2rem;
+}
+
+.list {
+  margin-top: 2rem;
+  width: 90%;
+  max-width: 800px;
+}
+
+.list article {
+  background: rgba(18, 18, 18, 0.4);
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.list article:not(:last-of-type) {
+  margin-bottom: 1rem;
+}
+
+.list p {
+  margin-bottom: 0.5rem;
+}
+
+.list button {
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.btn-delete {
+  margin-left: 1rem;
+  color: #ffcc23;
+  background: none;
+}
+
+.btn-logout {
+  position: absolute;
+  bottom: 3rem;
+  left: 3rem;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  font-weight: bold;
+  color: #fafafa;
+  background: rgba(219, 38, 41, 0.35);
+  transition: all 500ms;
+}
+
+.btn-logout:hover {
+  color: #fff;
+  background: rgba(219, 38, 41, 1);
+}

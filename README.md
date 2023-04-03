@@ -1,4 +1,4 @@
-# task-list
+# TaskList
 
 ReactJS student project w/ Firebase connection
 
